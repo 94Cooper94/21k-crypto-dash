@@ -25,7 +25,7 @@ export default function Chart() {
 
   return (
     <React.Fragment>
-      <Title>Today</Title>
+      <Title>WILL BE LIVE CHART #POG</Title>
       <ResponsiveContainer>
         <LineChart
           data={data}
