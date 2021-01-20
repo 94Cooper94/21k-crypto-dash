@@ -18,7 +18,7 @@ import Link from '@material-ui/core/Link';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { mainListItems, secondaryListItems } from './dashboard/listItems';
+import { mainListItems/*, secondaryListItems*/ } from './dashboard/listItems';
 import Chart from './dashboard/Chart';
 import Deposits from './dashboard/Deposits';
 import Orders from './dashboard/Orders';
@@ -28,7 +28,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+        CherryHead Digi LLC
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -154,10 +154,10 @@ export default function Dashboard() {
             noWrap
             className={classes.title}
           >
-            Dashboard
+            21k - Stock and Crypto Portfolio
           </Typography>
           <IconButton color="inherit">
-            <Badge badgeContent={4} color="secondary">
+            <Badge badgeContent={'F'} color="secondary">
               <NotificationsIcon />
             </Badge>
           </IconButton>
@@ -178,7 +178,7 @@ export default function Dashboard() {
         <Divider />
         <List>{mainListItems}</List>
         <Divider />
-        <List>{secondaryListItems}</List>
+        <List></List>
       </Drawer>
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
