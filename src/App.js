@@ -22,6 +22,7 @@ import { mainListItems/*, secondaryListItems*/ } from './dashboard/listItems';
 import Chart from './dashboard/Chart';
 import Deposits from './dashboard/Deposits';
 import Orders from './dashboard/Orders';
+import './App.css';
 
 function Copyright() {
   return (
